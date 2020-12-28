@@ -23,7 +23,7 @@ for ( j= 1; j<6; j++)
 if (isEmpty())   
           printf("Queue Underflow, cannot delete\n");  
            else {      
-            printf("Delete %d \n",deleteQ(st,st2));  }
+            printf("Dequeue is %d \n",deleteQ(st,st2));  }
 }
 int deleteQ(int st[],int st2[])
 {
